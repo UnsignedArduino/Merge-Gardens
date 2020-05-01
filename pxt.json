@@ -1,0 +1,17 @@
+{
+    "name": "Merge Gardens",
+    "dependencies": {
+        "device": "*",
+        "arcade-grid": "github:darzu/arcade-grid#v0.2.1"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "preferredEditor": "blocksprj",
+    "testFiles": [
+        "test.ts"
+    ]
+}
