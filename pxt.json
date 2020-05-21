@@ -2,7 +2,7 @@
     "name": "Merge Gardens",
     "dependencies": {
         "device": "*",
-        "arcade-grid": "github:darzu/arcade-grid#v0.2.1"
+        "Sprite Grid": "github:darzu/arcade-grid#v1.2.1"
     },
     "description": "",
     "files": [

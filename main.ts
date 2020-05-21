@@ -130,8 +130,6 @@ function level_1 () {
     SelectCursor.setFlag(SpriteFlag.Invisible, true)
     Cursor.setFlag(SpriteFlag.Ghost, true)
     SelectCursor.setFlag(SpriteFlag.Ghost, true)
-    grid.snap(Cursor)
-    grid.snap(SelectCursor)
     grid.place(Cursor, tiles.getTileLocation(5, 10))
     grid.place(SelectCursor, tiles.getTileLocation(5, 10))
     Objects = sprites.allOfKind(SpriteKind.Food)
@@ -608,9 +606,9 @@ Cursor.setFlag(SpriteFlag.Invisible, true)
 SelectCursor.setFlag(SpriteFlag.Invisible, true)
 if (false) {
     Camera.follow(Cursor, 30)
+    scene.cameraFollowSprite(Camera)
 } else {
-    Camera.follow(Cursor, 250)
+    scene.cameraFollowSprite(Cursor)
 }
-scene.cameraFollowSprite(Camera)
 scene.setBackgroundColor(9)
 level_1()
